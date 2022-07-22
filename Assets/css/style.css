@@ -1,0 +1,177 @@
+
+/* "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif
+"proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;*/
+
+/* font-family: 'Montserrat', sans-serif; 
+
+dark-pink: rgba(255, 80, 114, 1);
+
+light-pink: rgb(255, 224, 230)
+
+black: rgba(32, 33, 36, 1)
+
+*/
+:root {
+    --font-fam: 'Montserrat', sans-serif;
+    --dark-pink: rgba(255, 80, 114, 1);
+    --light-pink: rgb(255, 224, 230);
+    --purple: rgb(138, 80, 255);
+    --black: rgba(32, 33, 36, 1);
+    --cherub: rgb(246, 218, 228);
+    --light-blue: rgb(212, 240, 247);
+    --lavendar: rgb(208, 213, 247);
+    --tropical-blue: rgb(184, 207, 236);
+}
+
+body {
+    background-color: var(--light-pink);
+}
+
+h1 {
+    font-family: var(--font-fam);
+    font-size: 100px;
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: -0.09em;
+}
+
+header {
+    top: 0px;
+}
+
+nav {
+    font-family: var(--font-fam);
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    background-color: var(--dark-pink);
+    width: auto;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav a {
+    color:var(--light-pink);
+    text-decoration: none;
+}
+
+p {
+    font-family: var(--font-fam);
+    font-weight:lighter;
+}
+
+h2 {
+    font-family: var(--font-fam);
+}
+
+.subtitle {
+    font-size: 40px;
+    color: aliceblue;
+    background-color: var(--dark-pink);
+    padding: 10px;
+    margin: 10px;
+}
+
+.about-me-p {
+    display: flex;
+    height: 400px;
+    width: auto;
+    margin: 30px;
+    padding: 10px;
+}
+
+.my-work-p {
+    display: flex;
+    height: 400px;
+    width: auto;
+    margin: 30px;
+    padding: 10px;
+}
+
+.contact-me-p {
+    display: flex;
+    margin: 20px;
+    color:rgb(234, 156, 204);
+}
+
+ul li {
+    font-family: var(--font-fam);
+    font-weight:normal;
+    font-size: 20px;
+    display: inline-flex;
+    list-style: none;
+    margin: 30px;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.background-image {
+    background-image: url("../images/cute-unicorn.png");
+    width: 575px;
+    height: 470px;
+    background-position: center;
+    background-size:cover;
+}
+
+.flexbox-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+aside {
+    font-family: var(--font-fam);
+    border: 5px solid var(--black);
+    margin: 2%;
+}
+
+.section-side {
+    font-weight: bolder;
+    color: darkmagenta;
+    border: 5px dotted rgb(121, 75, 201);
+    margin: 5px;
+    padding: 5px;
+}
+
+.subtitle-side {
+    font-weight: lighter;
+    color:powderblue;
+    background-color:rgb(234, 156, 204);
+}
+
+.section-side > p {
+    font-size: 18px;
+}
+
+.links:visited {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.links:hover {
+    color:aqua;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity:1;}
+}
+
+
