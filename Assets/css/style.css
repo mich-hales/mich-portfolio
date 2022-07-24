@@ -114,7 +114,7 @@ p {
 }
 
 .navlinks li a {
-    color: var(--light-pink);
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
@@ -163,6 +163,7 @@ aside {
     color: black;
     padding: 10px;
     margin: 10px;
+    margin-top: 20px;
 }
 
 .subtitle::after {
@@ -215,23 +216,6 @@ aside {
     }
 }
 
-.section-side {
-    font-weight: bolder;
-    color: darkmagenta;
-    border: 5px dotted rgb(121, 75, 201);
-    margin: 5px;
-}
-
-.subtitle-side {
-    font-weight: lighter;
-    color:powderblue;
-    background-color:rgb(234, 156, 204);
-}
-
-.section-side > p {
-    font-size: 18px;
-}
-
 .contactme-navbar {
     display: flex;
     align-items: center;
@@ -246,11 +230,23 @@ aside {
     padding: 10px;
 }
 
+.phone::before {
+    content: '📞    ';
+}
+
+.email::before {
+    content: '✉️    ';
+}
+
 .contact-links li a {
     text-decoration: none;
-    color: blue;
+    color: black;
     font-size: 20px;
     position: relative;
+}
+
+.contact-links li a:hover {
+    color: var(--light-pink);
 }
 
 .contact-links:visited {
@@ -263,3 +259,8 @@ aside {
     to {opacity:1;}
 }
 
+footer {
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
