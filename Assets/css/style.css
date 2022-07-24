@@ -76,7 +76,7 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: var(--font-fam);
     font-weight: normal;
     margin-left: 30px;
@@ -96,12 +96,12 @@ p {
 }
 
 .about-me-p {
-    height: 400px;
+    height: 200px;
     width: auto;
     margin-left: 30px;
     margin-top: 10px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navlinks li {
@@ -159,7 +159,7 @@ aside {
 }
 
 .subtitle {
-    font-size: 40px;
+    font-size: 50px;
     color: black;
     padding: 10px;
     margin: 10px;
@@ -176,22 +176,43 @@ aside {
 
 .my-work-p {
     display: flex;
-    height: 400px;
     width: auto;
     margin: 30px;
     padding: 10px;
 }
 
 .images-poke {
-    display: block;
+    list-style: none;
+
+    box-sizing: border-box;
+    padding: 16px;
+
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
 }
 
-.images-poke > img {
-    height: 400px;
-    width: 400px;
-    margin: 50px;
-    padding: 50px;
+.images-poke img {
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+    object-fit: cover;
+}
 
+.image-grid-col-2 {
+    grid-column: span 3;
+}
+
+.image-grid-row-2 {
+    grid-row: span 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .images-poke {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
 }
 
 .section-side {
@@ -199,7 +220,6 @@ aside {
     color: darkmagenta;
     border: 5px dotted rgb(121, 75, 201);
     margin: 5px;
-    padding: 5px;
 }
 
 .subtitle-side {
