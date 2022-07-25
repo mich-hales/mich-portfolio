@@ -14,17 +14,17 @@
 <body>
     <header>
         <nav class="header">
-            <a href="index.html" id="favicon">Mich</a>
             <ul class="navlinks">
-                <li><a href="#link1">about</a></li>
-                <li><a href="#link2">work</a></li>
-                <li><a href="#link3">contact</a></li> 
+                <li class="navbar-logo"><a class="navbar-logo" href="index.html">Mich</a></li>
+                <li class="navbar-links"><a href="#link1">about</a></li>
+                <li class="navbar-links"><a href="#link2">work</a></li>
+                <li class="navbar-links"><a href="#link3">contact</a></li> 
             </ul>
         </nav>
 
         <section class="text-box">
             <h1>Full Stack Developer</h1>
-            <img src="./assets/images/big-hello.png" height="400px" width="400px">
+            <img class="image-me" src="./assets/images/big-hello.png" height="400px" width="400px">
             <h3>Hi, I'm Michelle! A designer and web developer.</h3>
         </section>
     </header>
@@ -39,12 +39,13 @@
 
         <section class="my-work" id="link2">
             <h2 class="subtitle">Work</h2>
-            <p class="my-work-p">where to put my work</p>
             <div class="images-poke">
-                <img class="image-grid-col-2" class=image-grid-row-2  src="./Assets/images/bulb.png" alt="bulbasaur">
-                <img src="./Assets/images/char.png" alt="charizard">
-                <img src="./Assets/images/eeve.png" alt="eeve">
-                <img src="./Assets/images/ponyta.png" alt="ponyta">
+                <nav>
+                    <a id="image-grid-col-row" href="https://github.com/mich-hales" target="_blank"><img class="link-images" src="./Assets/images/GitHub-Logo.png" alt="github logo"></a> 
+                    <a href="https://github.com/mich-hales" target="_blank"><img id="image-grid-1" class="link-images" src="./Assets/images/char.png" alt="charizard"></a> 
+                    <a href="google.com" target="_blank"><img id="image-grid-2" class="link-images" src="./Assets/images/eeve.png" alt="eeve"></a> 
+                    <a href="google.com" target="_blank"><img id="image-grid-3" class="link-images" src="./Assets/images/ponyta.png" alt="ponyta"></a> 
+                </nav>
             </div>
         </section>
         
@@ -62,7 +63,7 @@
     </main>
 
     <footer>
-        <p>2022 Michelle</p>
+        <p> <img src="./Assets/images/Copyright-Symbol.png" alt="copyright symbol" width="20px" height="12px"> 2022 Michelle</p>
     </footer>
 </body>
 
