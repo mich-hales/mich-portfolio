@@ -152,6 +152,7 @@ p {
     transition: .5s 
 }
 
+/* when my img/avatar is hovered over it gets a little bigger */
 .text-box img:hover {
     transform: scale(1.15);
 }
@@ -179,6 +180,7 @@ p {
     margin-top: 1%;
 }
 
+/* added an underline under each section */
 .subtitle::after {
     content:'';
     display: block;
@@ -192,6 +194,7 @@ p {
     margin: 5%;
 }
 
+/* styling for the images and creating a grid box */
 .images-poke nav {
     list-style: none;
 
@@ -214,6 +217,7 @@ p {
     display: block;
 }
 
+/* when images are hovered over, they get a little bigger and have a light blue shadow */
 .link-images:hover {
     transition: .5s;
     box-shadow: 8px 8px 8px var(--light-blue);
@@ -225,11 +229,13 @@ p {
     font-family: var(--font-fam);
 } 
 
+/* setting the first image to be the biggest */
 #image-grid-col-row {
     grid-column: span 3;
     grid-row: span 1;
 }
 
+/* text to overlay over the images */
 .h3-overlay {
     position: absolute;
     bottom: 0;
@@ -253,6 +259,7 @@ p {
     align-items: center;
 }
 
+/* formatting for contact links */
 .contact-links li {
     font-family: var(--font-fam);
     display: inline-block;
@@ -262,6 +269,7 @@ p {
     padding: 10px;
 }
 
+/* following two are adding an emoji before some of the contact links */
 .phone::before {
     content: '📞    ';
 }
@@ -270,6 +278,7 @@ p {
     content: '✉️    ';
 }
 
+/* contact link formatting */
 .contact-links li a {
     text-decoration: none;
     color: black;
@@ -277,25 +286,31 @@ p {
     position: relative;
 }
 
+/* when contact links at the bottom of webpage are hovered over, they turn purple */
 .contact-links li a:hover {
     color: var(--purple);
 }
 
+/* after they are visited, they turn pink */
 .contact-links:visited {
     color:var(--light-pink);
     text-decoration: none;
 }
 
+/* creates a nice transition when the page is loaded or refreshed */
 @keyframes fade-in {
     from {opacity: 0;}
     to {opacity:1;}
 }
 
+/* format for footer */
 footer {
     margin: 50px;
     padding: 10px;
     text-align: center;
 }
+
+/* adjusting settings so when 650px and under, it can fit on different screens */
 
 @media screen and (max-width: 650px) {
     .navbar-logo {
