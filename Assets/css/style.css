@@ -137,6 +137,7 @@ p {
     width: 100%;
 }
 
+/* formatting for picture area in header section */
 .text-box {
     display: flex;
     flex-direction: column;
@@ -292,7 +293,7 @@ p {
 }
 
 /* after they are visited, they turn pink */
-.contact-links:visited {
+.contact-links a:visited {
     color:var(--light-pink);
     text-decoration: none;
 }

@@ -20,15 +20,3 @@ Here is a screenshot of my website:
 
 ![Screenshot](./Assets/images/_Users_michelle_homework_working_files_02-Advanced-CSS_02-Challenge_index.html(Nest%20Hub).png)
 
-
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
