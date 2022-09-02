@@ -18,5 +18,5 @@ Click [HERE](https://mich-hales.github.io/module-02-challenge/index.html) to vie
 
 Here is a screenshot of my website:
 
-![Screenshot](./Assets/images/_Users_michelle_homework_working_files_02-Advanced-CSS_02-Challenge_index.html(Nest%20Hub).png)
+![Screenshot](./Assets/images/screenshot.html.png)
 
