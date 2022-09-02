@@ -223,6 +223,7 @@ p {
     transition: .5s;
     box-shadow: 8px 8px 8px var(--light-blue);
     transform: scale(1.03);
+    cursor: pointer;
 }
 
 .overlay {
@@ -234,6 +235,7 @@ p {
 #image-grid-col-row {
     grid-column: span 3;
     grid-row: span 1;
+    height: 350px;
 }
 
 /* text to overlay over the images */
@@ -241,14 +243,15 @@ p {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.8); 
+    background: rgba(0, 0, 0, 0.3); 
     width: 100%;
     transition: .5s ease;
     color: white;
     font-weight: normal;
-    font-size: 20px;
-    padding: 3%;
+    font-size: 30px;
+    padding: 3rem;
     text-align: center;
+    border-radius: 10px;
 }
 
 .contact-me {
