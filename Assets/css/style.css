@@ -198,10 +198,8 @@ p {
 /* styling for the images and creating a grid box */
 .images-poke nav {
     list-style: none;
-
     box-sizing: border-box;
     padding: 16px;
-
     display: grid;
     gap: 50px 50px;
     grid-template-columns: repeat(3, 1fr);
@@ -241,10 +239,14 @@ p {
 /* text to overlay over the images */
 .h3-overlay {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.3); 
     width: 100%;
+    height: 20%;
     transition: .5s ease;
     color: white;
     font-weight: normal;
@@ -316,7 +318,7 @@ footer {
 
 /* adjusting settings so when 650px and under, it can fit on different screens */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .navbar-logo {
         font-size: .1rem;
         letter-spacing: .1em;
@@ -363,6 +365,15 @@ footer {
         height: 300px;
         width: 300px;
     }
-    
+
+    .small-overlay {
+        font-size: 20px;
+    }
+ 
 }
 
+@media screen and (max-width: 1060px) {
+    .h3-overlay {
+        height: 20%;
+    }
+}
