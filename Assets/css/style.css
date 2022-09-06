@@ -217,7 +217,7 @@ p {
 }
 
 /* when images are hovered over, they get a little bigger and have a light blue shadow */
-.link-images:hover {
+.overlay:hover {
     transition: .5s;
     transform: scale(1.03);
     cursor: pointer;
@@ -242,6 +242,7 @@ p {
 .overlay {
     position: relative;
     font-family: var(--font-fam);
+    border-radius: 10px;
 } 
 
 /* setting the first image to be the biggest */
