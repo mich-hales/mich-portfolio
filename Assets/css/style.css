@@ -297,12 +297,6 @@ p {
     color: var(--purple);
 }
 
-/* after they are visited, they turn pink */
-.contact-links a:visited {
-    color:var(--light-pink);
-    text-decoration: none;
-}
-
 /* creates a nice transition when the page is loaded or refreshed */
 @keyframes fade-in {
     from {opacity: 0;}
