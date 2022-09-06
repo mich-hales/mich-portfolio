@@ -310,7 +310,27 @@ footer {
     text-align: center;
 }
 
-/* adjusting settings so when 650px and under, it can fit on different screens */
+
+@media screen and (max-width: 1060px) {
+    .h3-overlay {
+        height: 20%;
+    }
+
+    .header {
+        padding: 6%;
+    }
+
+    .navbar-logo {
+        margin-left: 2%;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+
+    .small-overlay {
+        font-size: 20px;
+        padding: 2rem;
+    }
+}
 
 @media screen and (max-width: 700px) {
     .navbar-logo {
@@ -335,7 +355,7 @@ footer {
     }
 
     .my-work {
-    margin-top: 20%;
+        margin-top: 20%;
     }
 
     .text-box h3 {
@@ -361,13 +381,19 @@ footer {
     }
 
     .small-overlay {
-        font-size: 20px;
+        font-size: 15px;
+        padding: 1.5rem;
+    }
+
+    .header {
+        padding: 8%;
+    }
+
+    .navbar-logo {
+        margin-left: 2%;
+        margin-top: 5%;
+        font-size: 15px;
     }
  
 }
 
-@media screen and (max-width: 1060px) {
-    .h3-overlay {
-        height: 20%;
-    }
-}
