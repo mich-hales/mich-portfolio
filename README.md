@@ -11,7 +11,7 @@ When the page is resized and viewed on various screens, the layout of my page ad
 
 ## Link
 
-Click [HERE](https://mich-hales.github.io/module-02-challenge/index.html) to view my website.
+Click [HERE](https://mich-hales.github.io/mich-portfolio) to view my website.
 
 
 ## Screenshot
