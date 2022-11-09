@@ -16,5 +16,5 @@ Click [HERE](https://mich-hales.github.io/mich-portfolio) to view my website.
 
 Here is a screenshot of my website:
 
-![Screenshot](./Assets/fitcommit-updates.html.png)
+![Screenshot](./Assets/preview.png)
 
